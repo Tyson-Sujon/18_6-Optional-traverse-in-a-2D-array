@@ -50,3 +50,22 @@ console.log(exam_marks);
 exam_marks[2][3] = 799;
 
 console.log(exam_marks);
+
+//express 2D array using for...of loop
+//jodi singel array hoto tobe loop chalale akta
+//array element ashto
+//e.g=array=[2,11,324,33,24]
+// akhane for..of looop dile;
+//singel element '2' ashbe
+//but 2d array te loop hole full array ashbe
+//const exam_marks = [
+//   [98, 87, 45, 12, 63],
+//   [54, 89, 74, 23, 11],
+//   [45, 87, 12, 56, 45],
+//   [78, 65, 32, 87, 54],
+// ];
+//e.g. [98, 87, 45, 12, 63]
+//karon ata multi dimentional array ba 2d array
+for (marks of exam_marks) {
+  console.log(marks);
+}
